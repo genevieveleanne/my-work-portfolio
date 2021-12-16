@@ -1,1 +1,10 @@
+:root {
+  --primary-color: #c0e9f2;
+  --accent-color: #5cc2f2;
+  --heading-font: "PT Serif", serif;
+  --paragraph-font: "PT Sans", sans-serif;
+}
 
+body {
+  background-color: #f7f3f3;
+}
