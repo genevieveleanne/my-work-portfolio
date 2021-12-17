@@ -10,16 +10,36 @@
   --paragraph-font: "PT Sans", sans-serif;
 }
 
+p {
+  font-family: var(--paragraph-font);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font);
+}
+
+.header button,
+.weather-app-description button {
+  background-color: var(--primary-color);
+  border: var(--accent-color);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.header a,
+.weather-app-description a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
 div.header {
   background: var(--background-gradient);
   padding: 150px 200px;
   text-align: center;
-}
-
-.header h1,
-h3,
-h4 {
-  font-family: var(--heading-font);
 }
 
 .header h1 {
@@ -35,19 +55,22 @@ h4 {
 }
 
 .header button {
-  background-color: var(--primary-color);
-  border: var(--accent-color);
   margin-top: 45px;
-  padding: 20px;
-  border-radius: 5px;
 }
 
-.header a {
-  text-decoration: none;
-  color: black;
+div.weather-app-description {
+  padding: 150px 20px;
+}
+
+.weather-app-description h2 {
+  font-size: 40px;
+}
+
+.weather-app-description p {
   font-size: 20px;
+  line-height: 1.5;
 }
 
-img {
-  border-radius: 4px;
+.weather-app-description a {
+  font-weight: bold;
 }
