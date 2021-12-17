@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #c0e9f2;
+  --accent-color: #5cc2f2;
+  --background-gradient: linear-gradient(
+    181.2deg,
+    rgb(181, 239, 249) 10.5%,
+    rgb(254, 254, 254) 86.8%
+  );
+  --heading-font: "PT Serif", serif;
+  --paragraph-font: "PT Sans", sans-serif;
+}
+
+h1,
+h3 {
+  font-family: var(--heading-font);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  font-size: 18px;
+  line-height: 30px;
+}
+
+div.header {
+  background: var(--background-gradient);
+  padding: 75px 50px;
+}
