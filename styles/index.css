@@ -21,6 +21,12 @@ h4 {
   font-family: var(--heading-font);
 }
 
+.header a,
+.weather-app-description p,
+.weather-app-description a {
+  font-size: 20px;
+}
+
 .header button,
 .weather-app-description button {
   background-color: var(--primary-color);
@@ -33,7 +39,11 @@ h4 {
 .weather-app-description a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+}
+
+.header h3,
+.weather-app-description h2 {
+  font-size: 40px;
 }
 
 div.header {
@@ -44,10 +54,6 @@ div.header {
 
 .header h1 {
   font-size: 50px;
-}
-
-.header h3 {
-  font-size: 40px;
 }
 
 .header h4 {
@@ -62,12 +68,7 @@ div.weather-app-description {
   padding: 150px 20px;
 }
 
-.weather-app-description h2 {
-  font-size: 40px;
-}
-
 .weather-app-description p {
-  font-size: 20px;
   line-height: 1.5;
 }
 
