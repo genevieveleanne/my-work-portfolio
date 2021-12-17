@@ -46,7 +46,7 @@ p {
   font-size: 40px;
 }
 
-div.header {
+.header {
   background: var(--background-gradient);
   padding: 150px 200px;
   text-align: center;
@@ -64,8 +64,8 @@ div.header {
   margin-top: 45px;
 }
 
-div.weather-app-description {
-  padding: 150px 20px;
+.weather-app-description {
+  padding: 100px 20px;
 }
 
 .weather-app-description p {
@@ -77,7 +77,7 @@ div.weather-app-description {
 }
 
 @media (max-width: 576px) {
-  div.header {
+  .header {
     padding: 75px 50px;
   }
 
@@ -93,7 +93,7 @@ div.weather-app-description {
     margin-top: 25px;
   }
 
-  div.weather-app-description {
-    padding-top: 75px;
+  .weather-app-description {
+    padding-top: 60px;
   }
 }
