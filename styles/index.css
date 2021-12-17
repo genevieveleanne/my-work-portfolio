@@ -10,15 +10,15 @@
   --paragraph-font: "PT Sans", sans-serif;
 }
 
-p {
-  font-family: var(--paragraph-font);
-}
-
 h1,
 h2,
 h3,
 h4 {
   font-family: var(--heading-font);
+}
+
+p {
+  font-family: var(--paragraph-font);
 }
 
 .header a,
@@ -74,4 +74,26 @@ div.weather-app-description {
 
 .weather-app-description a {
   font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  div.header {
+    padding: 75px 50px;
+  }
+
+  .header h3 {
+    font-size: 32px;
+  }
+
+  .header h1 {
+    font-size: 42px;
+  }
+
+  .header button {
+    margin-top: 25px;
+  }
+
+  div.weather-app-description {
+    padding-top: 75px;
+  }
 }
