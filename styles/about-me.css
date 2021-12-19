@@ -25,3 +25,9 @@ div.header {
   background: var(--background-gradient);
   padding: 75px 50px;
 }
+
+@media (max-width: 800px) {
+  img {
+    margin-bottom: 50px;
+  }
+}
