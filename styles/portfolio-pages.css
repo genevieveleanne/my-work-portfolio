@@ -1,6 +1,7 @@
 :root {
   --primary-color: #c0e9f2;
   --accent-color: #5cc2f2;
+  --link-color: #191ba9;
   --background-gradient: linear-gradient(
     181.2deg,
     rgb(181, 239, 249) 10.5%,
@@ -10,7 +11,12 @@
   --paragraph-font: "PT Sans", sans-serif;
 }
 
+body {
+  background: var(--background-gradient);
+}
+
 h1,
+h2,
 h3 {
   font-family: var(--heading-font);
 }
@@ -21,13 +27,34 @@ p {
   line-height: 30px;
 }
 
+button {
+  background-color: var(--primary-color);
+  border: var(--accent-color);
+  padding: 20px;
+  border-radius: 7px;
+}
+
 div.header {
-  background: var(--background-gradient);
-  padding: 75px 50px;
+  padding: 125px 75px;
+}
+
+.app-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.additional-project-info {
+  opacity: 0.7;
+}
+
+.weather-description,
+.landing-page-description {
+  padding: 100px 50px;
 }
 
 @media (max-width: 800px) {
-  img {
+  .pro-headshot {
     margin-bottom: 50px;
   }
 }
