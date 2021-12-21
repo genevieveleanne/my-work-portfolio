@@ -11,11 +11,6 @@
   --paragraph-font: "PT Sans", sans-serif;
 }
 
-body {
-  background: var(--background-gradient);
-  margin-bottom: 25px;
-}
-
 h1,
 h2,
 h3 {
@@ -30,6 +25,8 @@ ul {
 }
 
 button {
+  display: block;
+  margin: 0 auto;
   background-color: var(--primary-color);
   border: var(--accent-color);
   padding: 20px;
@@ -38,11 +35,7 @@ button {
 
 div.header {
   padding: 125px 75px;
-}
-
-.weather-description,
-.landing-page-description {
-  padding: 90px 50px;
+  background: var(--background-gradient);
 }
 
 .app-link {
@@ -55,7 +48,11 @@ div.header {
   opacity: 0.7;
 }
 
-@media (max-width: 800px) {
+.landing-page-description {
+  margin-top: 55px;
+}
+
+@media (max-width: 576px) {
   .pro-headshot {
     margin-bottom: 50px;
   }
@@ -64,8 +61,7 @@ div.header {
     padding: 50px 25px;
   }
 
-  .weather-description,
-  .landing-page-description {
-    padding: 50px 25px;
+  .weather-description {
+    margin-top: 50px;
   }
 }
