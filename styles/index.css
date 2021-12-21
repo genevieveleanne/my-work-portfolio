@@ -28,15 +28,20 @@ p {
 }
 
 .header button,
-.weather-app-description button {
+button {
   background-color: var(--primary-color);
   border: var(--accent-color);
   padding: 20px;
   border-radius: 5px;
 }
 
+button {
+  display: block;
+  margin: 0 auto;
+}
+
 .header a,
-.weather-app-description a {
+a {
   text-decoration: none;
   color: black;
 }
@@ -64,16 +69,8 @@ p {
   margin-top: 45px;
 }
 
-.weather-app-description {
-  padding: 100px 20px;
-}
-
 .weather-app-description p {
   line-height: 1.5;
-}
-
-.weather-app-description a {
-  font-weight: bold;
 }
 
 @media (max-width: 576px) {
@@ -93,7 +90,7 @@ p {
     margin-top: 25px;
   }
 
-  .weather-app-description {
-    padding-top: 60px;
+  img {
+    margin-top: 35px;
   }
 }
