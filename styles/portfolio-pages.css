@@ -13,6 +13,7 @@
 
 body {
   background: var(--background-gradient);
+  margin-bottom: 25px;
 }
 
 h1,
@@ -38,6 +39,11 @@ div.header {
   padding: 125px 75px;
 }
 
+.weather-description,
+.landing-page-description {
+  padding: 90px 50px;
+}
+
 .app-link {
   font-size: 20px;
   text-decoration: none;
@@ -48,13 +54,17 @@ div.header {
   opacity: 0.7;
 }
 
-.weather-description,
-.landing-page-description {
-  padding: 100px 50px;
-}
-
 @media (max-width: 800px) {
   .pro-headshot {
     margin-bottom: 50px;
+  }
+
+  .header {
+    padding: 50px 25px;
+  }
+
+  .weather-description,
+  .landing-page-description {
+    padding: 50px 25px;
   }
 }
