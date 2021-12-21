@@ -21,34 +21,28 @@ p {
   font-family: var(--paragraph-font);
 }
 
-.header a,
-.weather-app-description p,
-.weather-app-description a {
+a,
+.weather-app-description p {
   font-size: 20px;
-}
-
-.header button,
-button {
-  background-color: var(--primary-color);
-  border: var(--accent-color);
-  padding: 20px;
-  border-radius: 5px;
-}
-
-button {
-  display: block;
-  margin: 0 auto;
-}
-
-.header a,
-a {
-  text-decoration: none;
-  color: black;
 }
 
 .header h3,
 .weather-app-description h2 {
   font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background-color: var(--primary-color);
+  border: var(--accent-color);
+  padding: 20px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
 }
 
 .header {
