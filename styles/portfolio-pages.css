@@ -22,7 +22,8 @@ h3 {
   font-family: var(--heading-font);
 }
 
-p {
+p,
+ul {
   font-family: var(--paragraph-font);
   font-size: 18px;
   line-height: 30px;
