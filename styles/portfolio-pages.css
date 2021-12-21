@@ -48,6 +48,10 @@ div.header {
   opacity: 0.7;
 }
 
+.contact-info p {
+  font-size: 20px;
+}
+
 .landing-page-description {
   margin-top: 55px;
 }
