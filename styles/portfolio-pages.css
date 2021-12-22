@@ -19,7 +19,6 @@ h3 {
 
 p,
 ul {
-  font-family: var(--paragraph-font);
   font-size: 18px;
   line-height: 30px;
 }
@@ -32,6 +31,10 @@ div .landing-pg-btn {
   border: var(--accent-color);
   padding: 20px;
   border-radius: 7px;
+}
+
+p {
+  font-family: var(--paragraph-font);
 }
 
 div.header {
