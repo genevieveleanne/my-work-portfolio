@@ -87,4 +87,13 @@ h3.additional-project-info {
   .weather-description {
     margin-top: 50px;
   }
+
+  div.footer-container {
+    margin-top: 50px;
+  }
+
+  a i {
+    font-size: 10px;
+    padding: 20px;
+  }
 }
