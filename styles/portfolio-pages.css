@@ -21,6 +21,7 @@ p,
 ul {
   font-size: 18px;
   line-height: 30px;
+  padding: 0;
 }
 
 div .weather-app-btn,
@@ -43,8 +44,17 @@ a i {
   color: black;
 }
 
+div.coding-skills-grid p,
+div.coding-skills-grid li {
+  text-align: center;
+}
+
 p {
   font-family: var(--paragraph-font);
+}
+
+li {
+  list-style: none;
 }
 
 div.header {
@@ -65,6 +75,12 @@ a.app-link {
 
 h3.additional-project-info {
   opacity: 0.7;
+}
+
+p.tools-paragraph {
+  font-size: 25px;
+  color: #191ba9;
+  margin-top: 30px;
 }
 
 .contact-info p {
