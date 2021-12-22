@@ -33,6 +33,16 @@ div .landing-pg-btn {
   border-radius: 7px;
 }
 
+a i {
+  font-size: 25px;
+  margin: 15px;
+  background-color: var(--primary-color);
+  padding: 25px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+  color: black;
+}
+
 p {
   font-family: var(--paragraph-font);
 }
@@ -42,13 +52,18 @@ div.header {
   background: var(--background-gradient);
 }
 
-.app-link {
+div.footer-container {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+a.app-link {
   font-size: 20px;
   text-decoration: none;
   color: black;
 }
 
-.additional-project-info {
+h3.additional-project-info {
   opacity: 0.7;
 }
 

@@ -46,10 +46,25 @@ div .weather-app-description-btn {
   margin: 0 auto;
 }
 
-.header {
+a i {
+  font-size: 25px;
+  margin: 15px;
+  background-color: var(--primary-color);
+  padding: 25px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+  color: black;
+}
+
+div.header {
   background: var(--background-gradient);
   padding: 150px 200px;
   text-align: center;
+}
+
+div.footer-container {
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .header h1 {
