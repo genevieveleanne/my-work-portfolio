@@ -36,7 +36,8 @@ a {
   color: black;
 }
 
-button {
+.header button,
+div .weather-app-description-btn {
   background-color: var(--primary-color);
   border: var(--accent-color);
   padding: 20px;

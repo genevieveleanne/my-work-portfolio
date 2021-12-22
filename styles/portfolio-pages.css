@@ -24,7 +24,8 @@ ul {
   line-height: 30px;
 }
 
-button {
+div .weather-app-btn,
+div .landing-pg-btn {
   display: block;
   margin: 0 auto;
   background-color: var(--primary-color);
