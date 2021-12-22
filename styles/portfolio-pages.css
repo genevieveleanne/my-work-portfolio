@@ -67,6 +67,17 @@ div.footer-container {
   margin-bottom: 20px;
 }
 
+div.coding-skills-grid {
+  padding: 20px;
+}
+
+div.coding-skills-grid i {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  font-size: 25px;
+}
+
 a.app-link {
   font-size: 20px;
   text-decoration: none;
