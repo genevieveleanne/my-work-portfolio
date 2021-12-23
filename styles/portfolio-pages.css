@@ -34,6 +34,11 @@ div .landing-pg-btn {
   border-radius: 7px;
 }
 
+div.coding-skills-grid p,
+div.coding-skills-grid li {
+  text-align: center;
+}
+
 a i {
   font-size: 25px;
   margin: 15px;
@@ -42,11 +47,6 @@ a i {
   border-radius: 50%;
   transition: all 100ms ease-in-out;
   color: black;
-}
-
-div.coding-skills-grid p,
-div.coding-skills-grid li {
-  text-align: center;
 }
 
 p {
@@ -71,13 +71,6 @@ div.coding-skills-grid {
   padding: 20px;
 }
 
-div.coding-skills-grid i {
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-  font-size: 25px;
-}
-
 a.app-link {
   font-size: 20px;
   text-decoration: none;
@@ -94,6 +87,13 @@ p.tools-paragraph {
   margin-top: 30px;
 }
 
+div.coding-skills-grid i {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  font-size: 25px;
+}
+
 .contact-info p {
   font-size: 20px;
 }
@@ -103,24 +103,24 @@ p.tools-paragraph {
 }
 
 @media (max-width: 576px) {
-  .pro-headshot {
+  a i {
+    font-size: 10px;
+    padding: 20px;
+  }
+
+  img.pro-headshot {
     margin-bottom: 50px;
-  }
-
-  .header {
-    padding: 50px 25px;
-  }
-
-  .weather-description {
-    margin-top: 50px;
   }
 
   div.footer-container {
     margin-top: 50px;
   }
 
-  a i {
-    font-size: 10px;
-    padding: 20px;
+  .header {
+    padding: 50px 25px;
+  }
+
+  .weather-app-description {
+    margin-top: 50px;
   }
 }
