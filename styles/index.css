@@ -37,6 +37,11 @@ a,
   font-size: 20px;
 }
 
+p.coder-information,
+a.github-link {
+  font-size: 15px;
+}
+
 p {
   font-family: var(--paragraph-font);
 }
@@ -50,7 +55,7 @@ a:hover {
   color: black;
 }
 
-a i {
+i {
   font-size: 25px;
   margin: 15px;
   background-color: var(--primary-color);
@@ -69,6 +74,10 @@ div.header {
 div.footer-container {
   margin-top: 100px;
   margin-bottom: 20px;
+}
+
+a.github-link {
+  color: blue;
 }
 
 .header h1 {
