@@ -101,13 +101,17 @@ a.github-link {
     margin-top: 35px;
   }
 
-  a i {
+  i {
     font-size: 10px;
     padding: 20px;
   }
 
   div.header {
     padding: 75px 50px;
+  }
+
+  p.coder-information {
+    padding: 20px;
   }
 
   .header h3 {
