@@ -17,8 +17,19 @@ h4 {
   font-family: var(--heading-font);
 }
 
-p {
-  font-family: var(--paragraph-font);
+.header button,
+div .weather-app-btn {
+  background-color: var(--primary-color);
+  border: var(--accent-color);
+  padding: 20px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.header h3,
+.weather-app-description h2 {
+  font-size: 40px;
 }
 
 a,
@@ -26,9 +37,8 @@ a,
   font-size: 20px;
 }
 
-.header h3,
-.weather-app-description h2 {
-  font-size: 40px;
+p {
+  font-family: var(--paragraph-font);
 }
 
 a {
@@ -38,16 +48,6 @@ a {
 
 a:hover {
   color: black;
-}
-
-.header button,
-div .weather-app-description-btn {
-  background-color: var(--primary-color);
-  border: var(--accent-color);
-  padding: 20px;
-  border-radius: 5px;
-  display: block;
-  margin: 0 auto;
 }
 
 a i {
@@ -88,6 +88,15 @@ div.footer-container {
 }
 
 @media (max-width: 576px) {
+  img {
+    margin-top: 35px;
+  }
+
+  a i {
+    font-size: 10px;
+    padding: 20px;
+  }
+
   div.header {
     padding: 75px 50px;
   }
@@ -102,14 +111,5 @@ div.footer-container {
 
   .header button {
     margin-top: 25px;
-  }
-
-  img {
-    margin-top: 35px;
-  }
-
-  a i {
-    font-size: 10px;
-    padding: 20px;
   }
 }
